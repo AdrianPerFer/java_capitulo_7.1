@@ -8,10 +8,8 @@
  * @author: Adrián Perogil Fernández
  * 
  */
-import java.util.Scanner;
 public class Ejercicio1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int[] num = new int[12];
         num[0] = 39;
         num[1] = -2;
@@ -23,6 +21,5 @@ public class Ejercicio1 {
             System.out.print(" | " + i);
         }
         // Los valores no asignados, pasan a valer 0.
-        sc.close();
     }
 }

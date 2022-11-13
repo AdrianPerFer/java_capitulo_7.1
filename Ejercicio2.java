@@ -6,10 +6,8 @@
  * @author: Adrián Perogil Fernández
  * 
  */
-import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         char[] simbolo = new char[10];
         simbolo[0] = 'a';
         simbolo[1] = 'x';
@@ -21,6 +19,5 @@ public class Ejercicio2 {
             System.out.println("simbolo[" + i + "]: " + simbolo[i]);
           }
         // Los valores sin una asignación, se encuentras vacíos.
-        sc.close();
     }
 }
