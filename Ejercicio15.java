@@ -76,5 +76,6 @@ public class Ejercicio15 {
                 }
             }
         } while (cliente != -1);
+        sc.close();
     }
 }
