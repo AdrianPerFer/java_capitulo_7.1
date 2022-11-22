@@ -58,6 +58,7 @@ public class Ejercicio18 {
         for (int i = 0; i < numero2.length; i++) {
             System.out.printf("%5d", numero2[i]);
         }
+        System.out.println();
         sc.close();
     }
 }
