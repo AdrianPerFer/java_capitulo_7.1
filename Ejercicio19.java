@@ -48,5 +48,6 @@ public class Ejercicio19 {
             System.out.printf("%5d", arrayPrimero[i]);
         }
         System.out.println();
+        sc.close();
     }
 }
